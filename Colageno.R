@@ -108,16 +108,16 @@ anova(res_aov_Rt_20) #ANOVA SOLO del subset Rt= 20 como factor el tiempo
 # Por lo tanto la prueba de tuley seria innecessaria.
 # en mi caso es 0.08 por lo que no hay cambios y no se deberia hacer tukey a mi criterio
 
-TukeyHSD(res_aov_20, which = "t") #tukey solo de los ratios de 20 en funcion del tiempo
+TukeyHSD(res_aov_Rt_20, which = "t") #tukey solo de los ratios de 20 en funcion del tiempo
 
 
 
 
 ############## box mejorado Ratio=20 con separaciones cada 10 min ################
 # se asigna los valores de Data a vectores del mismo nombre
-A_405_20 <- Data_20$A_405
-Rt20 <- Data_20$Rt
-t20 <- Data_20$t
+A_405_20 <- Data_Rt_20$A_405
+Rt20 <- Data_Rt_20$Rt
+t20 <- Data_Rt_20$t
 
 
 # Define the data frame
