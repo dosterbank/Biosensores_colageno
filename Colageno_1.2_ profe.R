@@ -58,3 +58,5 @@ anova(m1_selected_ratio)
 # porque en este anova me faltan datos para que se ploteen con varianza
 
 boxplot(A450 ~ t, data=Data_selected_ratio)# se plotean los datos solo para el selected_ratio
+# quiza puedo intentar comparar con otro Csour para obtener mejores resultados de varianza. Por ejemplo entre Fs mio y Fs de Maithe,
+# o quizas Fs mio y CHT de alguien mas solo con el ratio de 30. Mmm, pero quizas no sea el mejor ratio para la otra persona. 
