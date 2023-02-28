@@ -6,3 +6,4 @@ Colageno_1.2_Profe: tiene las correciones de la profe y el codigo mas simple
 
 En imagenes esta el criterio para elegir los mejores ratios
 
+Colageno_1.5_Profe: tiene el analisis mas complejo y ploteos mas claros
